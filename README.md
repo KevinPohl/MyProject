@@ -171,6 +171,19 @@ I then add main.py, README.md, and two more screenshots and commit the changes.
 ```
 and do the final commit:
 `$ git commit -m "added missing and resolved files"`
-
-
-
+```git
+[master e16a29d] added missing and resolved files
+```
+`$ git push --set-upstream origin master`
+```git
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 299.75 KiB | 2.54 MiB/s, done.
+Total 25 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To github.com:KevinPohl/MyProject.git
+   df6f24c..e16a29d  master -> master
+branch 'master' set up to track 'origin/master'.
+```
